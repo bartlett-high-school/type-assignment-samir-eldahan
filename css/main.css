@@ -1,5 +1,24 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'abeezeeregular';
+    src: url('fonts/abeezee-regular-webfont.woff2') format('woff2'),
+         url('fonts/abeezee-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'afta_serifregular';
+    src: url('fonts/aftaserifthin-regular-webfont.woff2') format('woff2'),
+         url('fonts/aftaserifthin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Start the CSS*/
 body {
@@ -20,31 +39,11 @@ body {
 	background-color: #fff;
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.15);
 }
-
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
+h1,h2,h3,h4,h5,h6{
+	font-family:'abeezeeregular';
 }
 
 p {
+	font-family:'afta_serifregular';
 
 }
